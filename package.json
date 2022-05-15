@@ -1,21 +1,24 @@
 {
-    "name": "vscode-adw-material-theme",
-    "displayName": "vscode-adw-material-theme",
-    "description": "A VSCode theme inspired by Adwaita and Material design.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.67.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Adwaita Material Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/adw-material-color-theme.json"
-            }
-        ]
-    }
+  "name": "vscode-adw-material-theme",
+  "displayName": "vscode-adw-material-theme",
+  "description": "A VSCode theme inspired by Adwaita and Material design.",
+  "version": "0.0.1",
+  "scripts": {
+    "install": "./install.sh"
+  },
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Adwaita Material Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/adw-material-color-theme.json"
+      }
+    ]
+  }
 }
