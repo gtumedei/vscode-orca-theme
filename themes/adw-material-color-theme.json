@@ -130,7 +130,7 @@
 		{
 			"scope": "constant.regexp",
 			"settings": {
-				"foreground": "#646695"
+				"foreground": "#FF8A80"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 		{
 			"scope": "markup.bold",
 			"settings": {
-				"foreground": "#40C4FF",
+				"foreground": "#9CDCFE",
 				"fontStyle": "bold"
 			}
 		},
@@ -202,6 +202,7 @@
 		{
 			"scope": "markup.italic",
 			"settings": {
+				"foreground": "#9CDCFE",
 				"fontStyle": "italic"
 			}
 		},
@@ -232,25 +233,28 @@
 		{
 			"scope": "punctuation.definition.quote.begin.markdown",
 			"settings": {
-				"foreground": "#92D596"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
 			"scope": "punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "#6796E6"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
-			"scope": "markup.inline.raw",
+			"scope": [
+				"markup.inline.raw",
+				"markup.fenced_code"
+			],
 			"settings": {
-				"foreground": "#FF8A80"
+				"foreground": "#D9BB82"
 			}
 		},
 		{
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#757575"
 			}
 		},
 		{
@@ -331,7 +335,7 @@
 		{
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#D16969"
+				"foreground": "#FF8A80"
 			}
 		},
 		{
@@ -574,7 +578,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#FF8A80"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -585,7 +589,7 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#D16969"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
@@ -600,7 +604,7 @@
 		{
 			"scope": "keyword.operator.quantifier.regexp",
 			"settings": {
-				"foreground": "#00FF00"
+				"foreground": "#FF8A80"
 			}
 		},
 		{
@@ -612,7 +616,7 @@
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#00FF00"
+				"foreground": "#FF8A80"
 			}
 		},
 		{
@@ -644,6 +648,99 @@
 			"settings": {
 				"foreground": "#B267E6"
 			}
-		}
+		},
+		// Markdown additions
+    {
+      "scope": [
+        "heading.1.markdown",
+        "heading.2.markdown"
+      ],
+      "settings": {
+        "foreground": "#FF8A80"
+      }
+    },
+    {
+      "scope": [
+        "heading.3.markdown",
+        "heading.4.markdown",
+        "heading.5.markdown",
+        "heading.6.markdown"
+      ],
+      "settings": {
+        "foreground": "#1CE2D5"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#757575"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "string.other.link.title.markdown",
+        "string.other.link.description.markdown",
+        "punctuation.definition.metadata.markdown",
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown",
+				"punctuation.definition.link.title.begin.markdown",
+				"punctuation.definition.link.title.end.markdown",
+				"punctuation.definition.link.description.begin.markdown",
+				"punctuation.definition.link.description.end.markdown"
+      ],
+      "settings": {
+        "foreground": "#40C4FF"
+      }
+    },
+		// Doc additions
+    {
+      "scope": [
+        "comment.block.javadoc.java",
+				"comment.block.documentation.js",
+        "comment.block.documentation.ts",
+				"comment.block.documentation.dart"
+      ],
+      "settings": {
+        "foreground": "#B3E5FC"
+      }
+    },
+		// Python additions
+		{
+      "scope": [
+        "meta.function-call.generic.python"
+      ],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+		// JSX/TSX additions
+    {
+      "scope": [
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.end.jsx",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "meta.jsx.children.tsx",
+        "meta.jsx.children.jsx"
+      ],
+      "settings": {
+        "foreground": "#757575"
+      }
+    },
+		// Prisma additions
+    {
+      "scope": [
+        "punctuation.definition.tag.prisma"
+      ],
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    }
 	]
 }
