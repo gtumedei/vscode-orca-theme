@@ -14,7 +14,7 @@
             {
                 "label": "Adwaita Material Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Adwaita Material Theme-color-theme.json"
+                "path": "./themes/adw-material-color-theme.json"
             }
         ]
     }
