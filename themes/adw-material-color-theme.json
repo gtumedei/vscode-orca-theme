@@ -264,7 +264,7 @@
 				"entity.name.function.preprocessor"
 			],
 			"settings": {
-				"foreground": "#40C4FF"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -617,7 +617,7 @@
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#FF8A80"
+				"foreground": "#757575"
 			}
 		},
 		{
