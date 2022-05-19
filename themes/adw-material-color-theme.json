@@ -346,7 +346,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#40C4FF"
+				"foreground": "#909090"
 			}
 		},
 		{
@@ -617,7 +617,7 @@
 		{
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#757575"
+				"foreground": "#909090"
 			}
 		},
 		{
