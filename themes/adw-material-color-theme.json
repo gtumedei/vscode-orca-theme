@@ -726,9 +726,7 @@
         "punctuation.section.embedded.begin.jsx",
         "punctuation.section.embedded.end.jsx",
         "punctuation.section.embedded.begin.tsx",
-        "punctuation.section.embedded.end.tsx",
-        "meta.jsx.children.tsx",
-        "meta.jsx.children.jsx"
+        "punctuation.section.embedded.end.tsx"
       ],
       "settings": {
         "foreground": "#757575"
