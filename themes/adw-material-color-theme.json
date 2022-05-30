@@ -705,6 +705,8 @@
         "comment.block.javadoc.java",
 				"comment.block.documentation.js",
         "comment.block.documentation.ts",
+				"comment.block.documentation.jsx",
+				"comment.block.documentation.tsx",
 				"comment.block.documentation.dart"
       ],
       "settings": {
