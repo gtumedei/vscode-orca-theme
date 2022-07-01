@@ -1,5 +1,6 @@
 {
 	"name": "Adwaita Material Theme",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.border": "#444444",
     "activityBar.activeBorder": "#4190F4",
