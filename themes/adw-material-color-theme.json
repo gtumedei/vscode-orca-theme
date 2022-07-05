@@ -1,6 +1,5 @@
 {
 	"name": "Adwaita Material Theme",
-	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.border": "#444444",
     "activityBar.activeBorder": "#4190F4",
@@ -723,6 +722,14 @@
         "foreground": "#9CDCFE"
       }
     },
+		{
+      "scope": [
+        "constant.character.format.placeholder.other.python"
+      ],
+      "settings": {
+        "foreground": "#909090"
+      }
+    },
 		// JSX/TSX additions
     {
       "scope": [
@@ -744,5 +751,9 @@
         "foreground": "#D4D4D4"
       }
     }
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"selfParameter:python": "#40C4FF"
+	}
 }
