@@ -750,7 +750,25 @@
       "settings": {
         "foreground": "#D4D4D4"
       }
-    }
+    },
+		// LaTeX additions
+		{
+      "scope": [
+        "support.function.general.tex",
+				"support.function.general.latex",
+				"support.function.textbf.latex",
+				"support.function.textit.latex",
+				"support.function.texttt.latex",
+				"support.function.url.latex",
+				"support.function.section.latex",
+				"support.function.be.latex",
+				"punctuation.definition.function.tex",
+				"punctuation.definition.function.latex"
+      ],
+      "settings": {
+        "foreground": "#40C4FF"
+      }
+    },
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
