@@ -675,7 +675,9 @@
 			"scope": [
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.italic.markdown",
-				"punctuation.definition.heading.markdown"
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.math.begin.markdown",
+				"punctuation.definition.math.end.markdown"
 			],
 			"settings": {
 				"foreground": "#757575"
