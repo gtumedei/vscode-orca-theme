@@ -807,7 +807,8 @@
     {
       "scope": [
         "punctuation.section.embedded.begin.astro",
-        "punctuation.section.embedded.end.astro"
+        "punctuation.section.embedded.end.astro",
+        "meta.tag.start.astro"
       ],
       "settings": {
         "foreground": "#757575"
