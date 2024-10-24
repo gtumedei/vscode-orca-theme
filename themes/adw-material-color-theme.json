@@ -47,7 +47,7 @@
     "editorOverviewRuler.border": "#010409",
     "editorWidget.background": "#1f1f1f",
     "errorForeground": "#f85149",
-    "focusBorder": "#0078d4",
+    "focusBorder": "#0078d480",
     "foreground": "#cccccc",
     "icon.foreground": "#cccccc",
     "input.background": "#2a2a2a",
