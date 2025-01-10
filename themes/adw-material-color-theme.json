@@ -793,6 +793,21 @@
         "foreground": "#40C4FF"
       }
     },
+    {
+      "scope": ["meta.citation.latex"],
+      "settings": {
+        "foreground": "#1CE2D5"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.arguments.begin.latex",
+        "punctuation.definition.arguments.end.latex"
+      ],
+      "settings": {
+        "foreground": "#CCCCCC"
+      }
+    },
     // Vue
     {
       "scope": [
