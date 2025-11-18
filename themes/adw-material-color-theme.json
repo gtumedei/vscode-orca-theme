@@ -699,6 +699,12 @@
       }
     },
     {
+      "scope": ["markup.italic.markdown"],
+      "settings": {
+        "foreground": "#A7F3D0"
+      }
+    },
+    {
       "scope": [
         "punctuation.definition.bold.markdown",
         "punctuation.definition.italic.markdown",
