@@ -1,6 +1,6 @@
 # Orca Theme
 
-A dark theme for Visual Studio Code inspired by GNOME's Adwaita and Material Design.
+Yet another VSCode dark theme.
 
 ![Orca Theme preview](images/preview.png)
 

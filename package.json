@@ -2,16 +2,14 @@
   "name": "orca-theme",
   "displayName": "Orca Theme",
   "version": "1.0.0",
-  "description": "A dark theme for Visual Studio Code inspired by GNOME's Adwaita and Material Design.",
+  "description": "Yet another VSCode dark theme.",
   "categories": [
     "Themes"
   ],
   "keywords": [
-    "adwaita",
     "color theme",
     "dark",
-    "gnome",
-    "material"
+    "orca"
   ],
   "license": "MIT",
   "repository": {
