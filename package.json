@@ -1,24 +1,39 @@
 {
-  "name": "vscode-adw-material-theme",
-  "displayName": "vscode-adw-material-theme",
-  "description": "A VSCode theme inspired by Adwaita and Material design.",
-  "version": "0.0.1",
-  "scripts": {
-    "install": "./install.sh"
-  },
-  "engines": {
-    "vscode": "^1.67.0"
-  },
+  "name": "orca-theme",
+  "displayName": "Orca Theme",
+  "version": "1.0.0",
+  "description": "A dark theme for Visual Studio Code inspired by GNOME's Adwaita and Material Design.",
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "adwaita",
+    "color theme",
+    "dark",
+    "gnome",
+    "material"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gianni/vscode-orca-theme"
+  },
+  "publisher": "gianni",
   "contributes": {
     "themes": [
       {
-        "label": "Adwaita Material Theme",
+        "label": "Orca Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/adw-material-color-theme.json"
+        "path": "./themes/orca-color-theme.json"
       }
     ]
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#262626",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.67.0"
   }
 }
