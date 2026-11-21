@@ -1,4 +1,8 @@
 .vscode/**
 .vscode-test/**
+.git/**
 .gitignore
+.gitattributes
 vsc-extension-quickstart.md
+install.sh
+themes/base-theme.jsonc
