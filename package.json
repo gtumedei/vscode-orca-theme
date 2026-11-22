@@ -2,7 +2,7 @@
   "name": "orca-theme",
   "displayName": "Orca Theme",
   "version": "1.0.0",
-  "description": "Yet another VSCode dark theme.",
+  "description": "Yet another dark VSCode theme.",
   "categories": [
     "Themes"
   ],
@@ -14,9 +14,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gianni/vscode-orca-theme"
+    "url": "https://github.com/gtumedei/vscode-orca-theme"
   },
-  "publisher": "gianni",
+  "publisher": "gtumedei",
   "contributes": {
     "themes": [
       {

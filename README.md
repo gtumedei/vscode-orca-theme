@@ -1,6 +1,12 @@
-# Orca Theme
+<div align="center">
+  <img src="images/icon.png" width="128" height="auto">
 
-Yet another VSCode dark theme.
+  # Orca Theme
+
+  Yet another dark VSCode theme.
+
+</div>
+<br />
 
 ![Orca Theme preview](images/preview.png)
 
